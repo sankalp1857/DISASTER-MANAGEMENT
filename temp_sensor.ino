@@ -16,11 +16,11 @@ void SendMessage()
 {
  mySerial.println("AT+CMGF=1");    //Sets the GSM Module in Text Mode
   delay(2000);  
-   mySerial.println("AT+CMGS=\"+917078869316\"\r"); // Replace x with mobile number
+   mySerial.println("AT+CMGS=\"+917078869316\"\r");
   delay(2000);
-mySerial.println("Your house is on fire...");// The SMS text you want to send
+mySerial.println("Your house is on fire...");
   delay(200);
-   mySerial.println((char)26);// ASCII code of CTRL+Z
+   mySerial.println((char)26);
   delay(2000);
  }
 
