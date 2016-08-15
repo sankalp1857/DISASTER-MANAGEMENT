@@ -6,12 +6,13 @@ int buzzer=11;
 int t=0;
 static int x=1;
 float cel;
+char phone_no[]="7078869316";
 void setup()
 {
  mySerial.begin(2400);   // Setting the baud rate of GSM Module  
 Serial.begin(2400);//Starts serial communication with a baud rate of 9600
 pinMode(buzzer,OUTPUT);
-char phone_no[]="7078869316"
+
 }
 void Call()
 {
