@@ -14,27 +14,19 @@ pinMode(buzzer,OUTPUT);
 }
 void SendMessage()
 {
- //mySerial.println("ATD917078869316;");
-  Serial.print("i am in 2");
- // mySerial.println("AT+CMGF=1");    //Sets the GSM Module in Text Mode
+ mySerial.println("AT+CMGF=1");    //Sets the GSM Module in Text Mode
   delay(2000);  
-   Serial.print("i am in 3");// Delay of 1000 milli seconds or 1 second
- // mySerial.println("AT+CMGS=\"+917060328809\"\r"); // Replace x with mobile number
+   mySerial.println("AT+CMGS=\"+917078869316\"\r"); // Replace x with mobile number
   delay(2000);
-   Serial.print("i am in 4");
- //mySerial.println("Your house is on fire...loda lega");// The SMS text you want to send
+mySerial.println("Your house is on fire...");// The SMS text you want to send
   delay(200);
-  Serial.print("i am in 5");
-  // mySerial.println((char)26);// ASCII code of CTRL+Z
+   mySerial.println((char)26);// ASCII code of CTRL+Z
   delay(2000);
-  Serial.print("i am in 6");
-}
+ }
 
 void loop()
 {
-  
-  
-val = analogRead(tempPin);
+  val = analogRead(tempPin);
 float mv = ( val/1024.0)*5000; 
 cel = mv/10;
 Serial.print("TEMPRATURE = ");
