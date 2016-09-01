@@ -9,17 +9,17 @@ float cel;
 char phone_no[]="7078869316";
 void setup()
 {
- mySerial.begin(2400);   // Setting the baud rate of GSM Module  
-Serial.begin(2400);//Starts serial communication with a baud rate of 9600
+ mySerial.begin(9600);   // Setting the baud rate of GSM Module  
+Serial.begin(9600);//Starts serial communication with a baud rate of 9600
 pinMode(buzzer,OUTPUT);
 
 }
 void Call()
 {
- mySerial.println("AT");
+ mySerial.print("AT");
  mySerial.print("ATD");
- mySerial.println(phone_no);
- mySerial.print(";");
+ mySerial.print(phone_no);
+ mySerial.println(";");
  delay(20000);
  mySerial.print("ATH");
 }
