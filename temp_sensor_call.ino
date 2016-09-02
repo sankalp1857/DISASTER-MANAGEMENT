@@ -15,7 +15,7 @@ pinMode(buzzer,OUTPUT);
 }
 void Call()
 {
- mySerial.print("AT");
+ mySerial.println("AT");
  mySerial.print("ATD");
  mySerial.print(phone_no);
  mySerial.println(";");
