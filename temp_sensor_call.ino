@@ -19,7 +19,7 @@ void Call()
  mySerial.print("ATD");
  mySerial.print(phone_no);
  mySerial.println(";");
- delay(20000);
+ delay(10000);
  mySerial.print("ATH");
 }
 
