@@ -12,7 +12,6 @@ void setup()
  mySerial.begin(9600);   // Setting the baud rate of GSM Module  
 Serial.begin(9600);//Starts serial communication with a baud rate of 9600
 pinMode(buzzer,OUTPUT);
-
 }
 void Call()
 {
@@ -26,8 +25,6 @@ void Call()
 
 void loop()
 {
-  
-  
 val = analogRead(tempPin);
 float mv = ( val/1024.0)*5000; 
 cel = mv/10;
