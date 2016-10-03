@@ -1,0 +1,20 @@
+Arduino Uno
+
+Arduino Uno, a basic  component while entering into the field of 
+Embedded Systems, is a microcontroller board  based upon
+ATmega328P. Being the  first among the USB 
+Arduino boards till date, it is also the first reference model for the
+Arduino platform. The bootloader present in the Atmega328P allows 
+us to upload the new code without using any external hardware. The 
+Original STK500 protocol is used for communication.
+
+               Operating Voltage                       5V
+               Input Voltage(recommended)   7-12V
+               Input Voltage(limit)                     6-20V
+               SRAM		               2KB
+               EEPROM                                       1KB
+               Clock Speed    	               16MHz     
+
+
+                  
+	
