@@ -1,0 +1,53 @@
+SIM900A Modem is built with Dual Band GSM/GPRS based SIM900A modem from SIMCOM. It works on frequencies 900/ 1800 MHz. SIM900A can search these two bands automatically. The frequency bands can also be set by AT Commands. The baud rate is configurable from 1200-115200 through AT command. The GSM/GPRS Modem is having internal TCP/IP stack to enable you to connect with internet via GPRS.
+ 
+SIM900A is an ultra compact and reliable wireless module. This is a complete GSM/GPRS module in a SMT type and designed with a very powerful single-chip processor integrating AMR926EJ-S core, allowing you to benefit from small dimensions and cost-effective solutions.
+ 
+SIM900A Features
+ 
+- GPRS multi-slot class 10/8
+- GPRS mobile station class B
+- Compliant to GSM phase 2/2+
+ - Class 4 (2 W @850/ 900 MHz)
+ - Class 1 (1 W @ 1800/1900MHz)
+ 
+- Control via AT commands (GSM 07.07, 07.05 and SIMCOM enhanced AT Commands)
+ 
+Low power consumption: 1.5mA(sleep mode)
+Operation temperature: -40°C to +80 °C
+ 
+Specifications for GPRS Data : GPRS class 10     
+max. 85.6 kbps (downlink)
+max. 42.8 kbps (uplink)
+PBCCH (Support packet Switched Broadcast Control Channel) support
+Coding schemes CS 1, 2, 3, 4
+ 
+Specifications for SMS via GSM/GPRS
+- Point to point MO and MT
+- SMS cell broadcast
+- Text and PDU mode 
+ 
+Software features
+- 0710 MUX protocol
+- Embedded TCP/UDP protocol
+- FTP/HTTP
+- FOTA 
+- MMS 
+- Embedded AT
+ 
+Compatibility: AT cellular command interface
+ 
+SIM900A RS232 + TTL BOARD Features
+ 
+INPUT VOLTAGE: 12V
+On Board Power LED
+On Board Network LED
+RS232 Serial Control (TX and RX)
+Modem Reset PIN OUT
+Default Baud Rate: 9600. Databits: 8, Parity: None, Stop Bit: 1
+ 
+PCB Board Specifications
+ 
+    Material: FR4 (High Quality)
+    Board Thickness: 1.6mm
+ 
+ 
